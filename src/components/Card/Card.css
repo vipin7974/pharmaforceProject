@@ -1,0 +1,60 @@
+.cardmain{
+    padding: 10px;
+    background-color: white;
+    border-right: 1px solid #EDF5F5;
+    margin-top: 20px;
+}
+.cardmain:hover{
+    background-color: whitesmoke
+}
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.switchchart{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+   padding: 0px 8px 0px 8px;
+   border-radius: 10px;
+}
+.card_content{
+    display: flex;
+}
+.dot-label-container {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.swicthchart_center{
+    border: 1px solid gray;
+    height: 20px;
+}
+.label {
+    font-size: 12px;
+}
+.side_label{
+    margin-top: 30px;
+}
+.square {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.swicthchart_pie{
+    cursor: pointer;
+}
+.swicthchart_sq{
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.stackedChartCard_main{
+    border: 2px solid #EDF5F5;
+        margin-top: 20px;
+        border-radius: 20px;
+}
+.StackedChart_header{
+    padding:20px;
+        border-bottom: 2px solid #EDF5F5;
+}
+.StackedChart_header_top{
+    display: flex;
+        justify-content: space-between;
+}
+.channels_col{
+margin-top: 80px;
+}
+.Channel_list{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.square_Check_icon{
+    fill:#7B5AF9;
+    margin-right: 5px;
+}
+.tabs{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    height: 50px;
+    width: 410px;
+    background-color: #EDF5F5;
+    border-radius: 10px;
+    padding: 5px;
+}
+.tab{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.tab:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.selected{
+    background-color: white;
+    border-radius: 10px;
+}

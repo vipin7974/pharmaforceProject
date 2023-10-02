@@ -1,0 +1,28 @@
+.Cubechart {
+    display: flex;
+    padding: 20px;
+  }
+  .Cubechart .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; 
+    padding: 10px; 
+    max-width: 400px; 
+    margin: 0 auto;
+  }
+  .Cubechart .grid-row {
+    display: flex;
+    gap: 5px;
+  }
+  .Cubechart .grid-cell {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+  }
+  .level-labels{
+    margin-left: -110px;
+  }
+  .level-label{
+    margin-top: 20px;
+  }
+  

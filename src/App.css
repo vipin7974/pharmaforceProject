@@ -1,0 +1,16 @@
+.App{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.content{
+  overflow-y: auto;
+  margin-top: 70px;
+}
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}

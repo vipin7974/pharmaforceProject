@@ -1,0 +1,121 @@
+.affinityMain{
+margin:50px 20px 20px 20px;
+border-bottom: 2px solid #EDF5F5;
+}
+.affinityHeader{
+    display: flex;
+    gap:20px;
+    width: 600px;
+}
+ .badges{
+    display: flex;
+align-items: center;
+justify-content: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    box-shadow:
+    0  5px 10px rgba(60, 60, 60, 0.05),
+    0 15px 40px rgba(59, 59, 59, 0.2);
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+} 
+.state span{
+    margin-left: 10px;
+}
+.drop span{
+    margin-right: 10px;
+}
+.d_icon{
+    width: 30px;
+    height: 30px;
+    
+}
+.content_a{
+    border: 2px solid #EDF5F5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content_a_header{
+   
+    height: 100px;
+    border-bottom: 2px solid #EDF5F5;
+}
+.Vtabs{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    height: 50px;
+    width: 760px;
+    background-color: #EDF5F5;
+    border-radius: 10px;
+    padding: 5px;
+}
+.tab{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.tab:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.donut{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.col-with-gap {
+    margin-right: 20px;
+  }
+  
+  .col-no-gap {
+    margin-right: 10px;
+  }
+  
+  .donut_row > .col-ls-4 {
+    width: calc(33.333% - 20px); 
+  }
+  
+  @media (min-width: 768px) {
+    .donut_row >.col-md-4 {
+      width: calc(33.333% - 20px);
+    }
+  }
+  
+  .DBL_row{
+    border-top: 2px solid #EDF5F5;
+  }
+  .DBL_right{
+    background-color: #FAFAFA;
+  }
+  .barChartMain{
+    margin-top: -60px;
+  }
+  .sdonut{
+    height: 250px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .dosing{
+    color:#AC509F
+  }
+  .bucol{
+    height: 250px;
+    width: 45%;
+    margin-left: 10px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .contentType_right{
+    display: flex;
+    justify-content: space-around;
+  }

@@ -1,0 +1,47 @@
+.semi-donut-chart {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .semi_donut_main{
+    margin-top: 10px;
+  }
+  .chart-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -130px;
+  }
+  .color-box {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .virtual {
+    background-color: #0074d9;
+  }
+  
+  .inperson {
+    background-color: #2ecc40;
+  }
+  .Vlabel{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Plabel{
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    font-size: 14px;
+  }
+  
+  .percentage {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,50 @@
+.mainheader{
+    display:flex
+}
+#header .logotext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    text-align: center;
+    height: 73px;
+    border: 3px solid #EDF5F5;
+    font-weight: 900;
+}
+#header .ps-sidebar-root{
+    background-color: #F8FBFB;
+    border-right: 1px solid #EDF5F5;
+}
+  #header .ps-sidebar-container{
+    height: 100vh;
+  }
+  #header .ps-menu-button{
+    margin: 10px;
+  }
+  #header .ps-menu-button:hover {
+background-color: #FDEEF4;
+border-radius: 5px 5px 5px 5px;
+color:"#95658D"
+  }
+  .active {
+    background-color: #FDEEF4;
+border-radius: 5px 5px 5px 5px;
+    color: black;
+  }
+  .setting_menu{
+    border-top: 3px solid #EDF5F5;
+  }
+  .closemenu{
+    border: 3px solid #dbdede;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .collapse_icon{
+    display: flex;
+    justify-content: center;
+  }

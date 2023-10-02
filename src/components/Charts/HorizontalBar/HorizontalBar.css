@@ -1,0 +1,66 @@
+    .horizontalChart_main{
+        border: 2px solid #EDF5F5;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .highcharts-credits{
+        visibility: hidden;
+    }
+    .horizontalChart_diagram{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8%;
+    }
+    .horizontaChart_header{
+        display: flex;
+        justify-content: space-between;
+        padding:20px;
+        border-bottom: 2px solid #EDF5F5;
+    }
+    .Hswitchchart{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+   padding: 0px 8px 0px 8px;
+   border-radius: 10px;
+    }
+    .Hswicthchart_center{
+        border: 1px solid gray;
+    height: 40px;
+    }
+    .digital{
+        color:green
+    }
+.non_digital{
+    color:orange
+}
+.right_chart{
+    margin-left: -110px;
+}
+.chart_labels{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hdot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.hlabel{
+    font-size: 16px;
+}
+.digital_dot{
+    background-color: #F69109;
+}
+.p_dot{
+    background-color: #13B66A;
+}
+.pp_dot{
+    background-color: #37BEFA;
+}
